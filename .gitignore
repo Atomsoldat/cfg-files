@@ -31,6 +31,9 @@ Desktop/
 ## contain file and link names
 .config/xfce4/desktop/icons*
 
+# communication
+.thunderbird/
+
 # command history
 .lesshst
 .bash_history

@@ -1,0 +1,5 @@
+[Default Applications]
+application/x-compressed-tar=thunar.desktop
+
+[Added Associations]
+application/x-compressed-tar=org.gnome.FileRoller.desktop;thunar.desktop;

@@ -1,0 +1,63 @@
+# User data
+Pictures/
+GOG\ Games/
+Downloads/
+Desktop/
+
+# This repo
+.cfg.git/
+
+# Validate  whether we want any of these things
+.mozilla/
+.ts3client/
+.local/share
+.cache/
+.factorio/
+.config/QtProject.conf
+.config/pulse
+.config/ibus/
+
+
+#gnome-related
+.gnome/
+.config/dconf/
+
+# kde-related
+.config/menus/applications-merged/xdg-desktop-menu-dummy.menu
+
+# xfce4-related
+## contains list of recently used programs
+.config/xfce4/panel/whiskermenu-7.rc
+## contain file and link names
+.config/xfce4/desktop/icons*
+
+# command history
+.lesshst
+.bash_history
+.bash_logout
+.viminfo
+.vim/.netrwhist
+.sudo_as_admin_successful
+
+# logs
+.xsession-errors*
+
+# security related
+.config/keepassxc/
+.pki/
+.ICEauthority
+.Xauthority
+
+# cef = chromium embedded framework
+# used by steam
+.steam*
+.config/cef_user_data/
+
+# Games
+.config/StardewValley
+.config/Proxy\ Studios/
+.config/unity3d/
+.macromedia/
+
+# Proprietary
+.config/TeamSpeak/

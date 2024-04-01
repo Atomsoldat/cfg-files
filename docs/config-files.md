@@ -1,0 +1,3 @@
+- `.config/user-dirs.dirs` is responsible for the correct localisation and special treatment in file managers of directories like `~/Downloads` and `~/Pictures`. Some other programs may use the directories too, like for default download location  and such. Instead of editing the file, `xdg-user-dirs-update` can be used. That command is also responsible for the creation of localised directories. `xdg-user-dir` can be used to query the directories matching the directories  corresponding to a set value.
+- `.config/mimeapps.list` contains user overrides for default programs
+- `.config/gtk-3.0/bookmarks` controls bookmark locations being displayed in "Save File..." dialogs of GTK based applications

@@ -47,6 +47,7 @@ Desktop/
 .pki/
 .ICEauthority
 .Xauthority
+.ssh/
 
 # cef = chromium embedded framework
 # used by steam

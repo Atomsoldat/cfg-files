@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="displays" version="1.0">
+  <property name="ActiveProfile" type="string" value="Default"/>
+  <property name="Default" type="empty">
+    <property name="DP-2" type="string" value="Dell 24&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="e01ee51e70e997925a975f9c7b59eaa9c78e3947"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60"/>
+      <property name="Rotation" type="int" value="270"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1"/>
+        <property name="Y" type="double" value="1"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="1920"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="DP-3" type="string" value="Dell 24&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="d24ea1302f40bbed4c6ef45ee4c674a4b60d12da"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="true"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1"/>
+        <property name="Y" type="double" value="1"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="HDMI-1" type="string" value="Sony 55&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="522fcaeeb68f21103d844c51bf3fc6c203d7008a"/>
+      <property name="Resolution" type="string" value="3840x2160"/>
+      <property name="RefreshRate" type="double" value="30"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="0.60000002384185791"/>
+        <property name="Y" type="double" value="0.60000002384185791"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="HDMI-0" type="string" value="Sony 55&quot;">
+      <property name="Active" type="bool" value="false"/>
+      <property name="EDID" type="string" value="522fcaeeb68f21103d844c51bf3fc6c203d7008a"/>
+      <property name="Resolution" type="string" value="3840x2160"/>
+      <property name="RefreshRate" type="double" value="30"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1"/>
+        <property name="Y" type="double" value="1"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="DP-0" type="string" value="Dell 24&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="d24ea1302f40bbed4c6ef45ee4c674a4b60d12da"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1"/>
+        <property name="Y" type="double" value="1"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="262"/>
+      </property>
+    </property>
+  </property>
+  <property name="Fallback" type="empty">
+    <property name="DP-2" type="string" value="Dell 24&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="e01ee51e70e997925a975f9c7b59eaa9c78e3947"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60"/>
+      <property name="Rotation" type="int" value="270"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1"/>
+        <property name="Y" type="double" value="1"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="1920"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="DP-3" type="string" value="Dell 24&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="d24ea1302f40bbed4c6ef45ee4c674a4b60d12da"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="true"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1"/>
+        <property name="Y" type="double" value="1"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="HDMI-1" type="string" value="Sony 55&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="522fcaeeb68f21103d844c51bf3fc6c203d7008a"/>
+      <property name="Resolution" type="string" value="3840x2160"/>
+      <property name="RefreshRate" type="double" value="30"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="0.60000002384185791"/>
+        <property name="Y" type="double" value="0.60000002384185791"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="HDMI-0" type="string" value="Sony 55&quot;">
+      <property name="Active" type="bool" value="false"/>
+      <property name="EDID" type="string" value="522fcaeeb68f21103d844c51bf3fc6c203d7008a"/>
+      <property name="Resolution" type="string" value="3840x2160"/>
+      <property name="RefreshRate" type="double" value="30"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1"/>
+        <property name="Y" type="double" value="1"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="DP-0" type="string" value="Dell 24&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="d24ea1302f40bbed4c6ef45ee4c674a4b60d12da"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1"/>
+        <property name="Y" type="double" value="1"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="262"/>
+      </property>
+    </property>
+  </property>
+  <property name="Notify" type="int" value="2"/>
+  <property name="AutoEnableProfiles" type="bool" value="true"/>
+  <property name="55ae1d9f7ff02c4e8e567b9d1aae140afa678010" type="string" value="2 and Television">
+    <property name="DP-2" type="string" value="Dell 24&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="e01ee51e70e997925a975f9c7b59eaa9c78e3947"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60"/>
+      <property name="Rotation" type="int" value="270"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1"/>
+        <property name="Y" type="double" value="1"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="1920"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="DP-3" type="string" value="Dell 24&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="d24ea1302f40bbed4c6ef45ee4c674a4b60d12da"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="true"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1"/>
+        <property name="Y" type="double" value="1"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="232"/>
+      </property>
+    </property>
+    <property name="HDMI-1" type="string" value="Sony 55&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="522fcaeeb68f21103d844c51bf3fc6c203d7008a"/>
+      <property name="Resolution" type="string" value="3840x2160"/>
+      <property name="RefreshRate" type="double" value="30"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="0.69999998807907104"/>
+        <property name="Y" type="double" value="0.69999998807907104"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="3000"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+  </property>
+  <property name="c82f047503658f1c640438e60858f7c4e4048e5b" type="string" value="H Screen Mirror TV">
+    <property name="DP-3" type="string" value="Dell 24&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="d24ea1302f40bbed4c6ef45ee4c674a4b60d12da"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="true"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1"/>
+        <property name="Y" type="double" value="1"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="HDMI-1" type="string" value="Sony 55&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="522fcaeeb68f21103d844c51bf3fc6c203d7008a"/>
+      <property name="Resolution" type="string" value="3840x2160"/>
+      <property name="RefreshRate" type="double" value="30"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="0.60000002384185791"/>
+        <property name="Y" type="double" value="0.60000002384185791"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+  </property>
+  <property name="eff619f5375ffe0cb514c780c95bcef07d0e6d3e" type="string" value="2_no_TV">
+    <property name="HDMI-0" type="string" value="Sony 55&quot;">
+      <property name="Active" type="bool" value="false"/>
+      <property name="EDID" type="string" value="522fcaeeb68f21103d844c51bf3fc6c203d7008a"/>
+    </property>
+    <property name="DP-0" type="string" value="Dell 24&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="d24ea1302f40bbed4c6ef45ee4c674a4b60d12da"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1"/>
+        <property name="Y" type="double" value="1"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="262"/>
+      </property>
+    </property>
+    <property name="DP-2" type="string" value="Dell 24&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="e01ee51e70e997925a975f9c7b59eaa9c78e3947"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60"/>
+      <property name="Rotation" type="int" value="270"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1"/>
+        <property name="Y" type="double" value="1"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="1920"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+  </property>
+</channel>

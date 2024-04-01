@@ -16,9 +16,13 @@ The content of `.git/config` will not get pushed to remote repositories, so it m
 config config --local status.showUntrackedFiles no
 ```
 
+Once all untracked files are either commited or ignored, the option should be unset again.
+
 
 ## Usage
 
 ```
+config status
+# if untracked files are not displayed by default
 config status --untracked-files
 ```

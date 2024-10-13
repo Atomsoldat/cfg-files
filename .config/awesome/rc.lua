@@ -49,7 +49,12 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
+-- TODO: make this nicer
+
+beautiful.init(os.getenv("HOME") .. "/.config/awesome/themes/custom_theme/theme.lua")
+--beautiful.init("/home/leon/.config/awesome/themes/custom_theme/theme.lua")
+--beautiful.init(gears.filesystem.get_config_dir() .. "themes/zenburn/theme.lua")
+--beautiful.init(gears.filesystem.get_themes_dir() .. "zenburn/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "x-terminal-emulator"

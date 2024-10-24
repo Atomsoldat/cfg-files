@@ -10,6 +10,16 @@ echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg.git/ --work-tree=$HOME'" >
 ```
 
 ## Setup
+
+```
+ git clone --bare git@github.com:Atomsoldat/cfg-files.git $HOME/.cfg.git
+ alias config='/usr/bin/git --git-dir=$HOME/.cfg.git/ --work-tree=$HOME'
+ config config --local status.showUntrackedFiles no
+ config restore --staged $HOME
+ config checkout $HOME
+```
+
+
 The content of `.git/config` will not get pushed to remote repositories, so it must be recreated when the repo gets checked out. Currently, we only use one option which can be set as follows:
 
 ```

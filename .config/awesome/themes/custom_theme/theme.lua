@@ -23,7 +23,8 @@ theme.wallpaper = themes_path .. "custom_theme/mondnacht.jpg"
 -- }}}
 
 -- {{{ Styles
-theme.font      = "sans 8"
+--theme.font      = "sans 8"
+theme.font      = "Unifraktur Maguntia"
 
 -- {{{ Colors
 theme.fg_normal  = "#DCDCCC"

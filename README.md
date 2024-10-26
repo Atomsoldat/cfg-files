@@ -17,6 +17,9 @@ echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg.git/ --work-tree=$HOME'" >
  config config --local status.showUntrackedFiles no
  config restore --staged $HOME
  config checkout $HOME
+# to checkout the submodule containing awesome-wm-widgets
+git submodule init
+git submodule update
 ```
 
 

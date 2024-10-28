@@ -18,6 +18,13 @@ local hotkeys_popup = require("awful.hotkeys_popup")
 -- when client with a matching name is opened:
 require("awful.hotkeys_popup.keys")
 
+
+-- BEGIN user defined dependencies
+local volume_widget = require('awesome-wm-widgets.volume-widget.volume')
+local ram_widget = require("awesome-wm-widgets.ram-widget.ram-widget")
+local batteryarc_widget = require("awesome-wm-widgets.batteryarc-widget.batteryarc")
+-- END user defined dependencies
+
 -- Load Debian menu entries
 local debian = require("debian.menu")
 local has_fdo, freedesktop = pcall(require, "freedesktop")
@@ -116,7 +123,6 @@ else
                 }
     })
 end
-
 
 mylauncher = awful.widget.launcher({ image = beautiful.awesome_icon,
                                      menu = mymainmenu })
@@ -235,6 +241,13 @@ awful.screen.connect_for_each_screen(function(s)
             layout = wibox.layout.fixed.horizontal,
             mykeyboardlayout,
             wibox.widget.systray(),
+            -- BEGIN User defined widgets
+            volume_widget{
+              widget_type = 'arc'
+            },
+            ram_widget(),
+            batteryarc_widget(),
+            -- END User defined widgets
             mytextclock,
             s.mylayoutbox,
         },
@@ -252,6 +265,12 @@ root.buttons(gears.table.join(
 
 -- {{{ Key bindings
 globalkeys = gears.table.join(
+    -- BEGIN user defined key bindings
+    awful.key({}, "XF86AudioRaiseVolume", function() volume_widget.inc() end),
+    awful.key({}, "XF86AudioLowerVolume", function() volume_widget.dec() end),
+    awful.key({}, "XF86AudioMute", function() volume_widget.toggle() end),
+    -- END user defined key bindings
+
     awful.key({ modkey,           }, "s",      hotkeys_popup.show_help,
               {description="show help", group="awesome"}),
     awful.key({ modkey,           }, "Left",   awful.tag.viewprev,

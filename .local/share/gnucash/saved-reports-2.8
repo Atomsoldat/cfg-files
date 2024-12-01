@@ -1,0 +1,124 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Options for saved report "Expense Over Time", based on template "b1f15b2052c149df93e698fe85a81ea6"
+(let ()
+  (define (options-gen)
+    (let
+         (
+           (options (gnc:report-template-new-options/report-guid "b1f15b2052c149df93e698fe85a81ea6" "Expense Over Time"))
+           (new-embedded-report-ids '()) ;; only used with Multicolumn View Reports
+         )
+; Section: Accounts
+
+(let ((option (gnc:lookup-option options
+                                 "Accounts"
+                                 "Accounts")))
+  ((lambda (o) (if o (gnc:option-set-value o '("b032afb1b5a24a5080342559f53a4506" "e0f54b0236a449e99e44c94b08088d25" "415f2e4309d64152b7fd325ba96e2cc3" "14c677f004ea48399448594b15add5a1" "e5ecf8a9581944279fe263ed2ace74b3" "75ca7108f9fe426da1b9f2abed5e40ed" "6c317ef6f1094d699d2e3d480649dfab" "37e81ce6b46044a9a294acb818c753b5" "ed6371f28426409891a32da1ef24d51d" "256fc721bf644f2987d2040db07f9fae" "077cba792c3d46559520940e1a2d631b" "9eea9ffae78d40eeb09b046b8ad719f8" "ea6091c55fa9494ba3cfc0b17011a143" "56b31d0fda6b42918def1886b384c726" "9b0f6995f0e0477dbc0ed2839992f2ff" "5af91903cb7543c6a8f5539852a972f0" "0398797b32f84bb78ab23f1c9230c9cf" "bfadeed00bbe4387b3afb69d14eade78" "1d4192e33f88408b908396c87ec7e24c" "26ebb2cb017a4616af596767c9713cef" "f38bd4fd83ea44efacca9d10b07a7302" "436eef72a5404434af4b01e00e7bcbba" "da9c5a5a5ba64541ad48ffea3c8d8070" "74a1e430f75e4c49bedaefca757e8b75" "0f82570b36ef4439bc5d848b80fcee33" "9f04fe6118ed41b8bf71aca1816e5964" "9117e3b05431486ab5925518c0f99f01" "16fce77d25504c138e1daab450a56efa" "f190fd2e750f4ebcb81775f3d193aaff" "7e401f8ff5e14a7d9e52d1990933b0df" "948f53578713458cb7a2d348cc305635" "5ba5ece5df0f4d0c823cb4110d4f830e" "20a6d485e8b544d1aa89e815ffee675c" "cd03f64da51e45d8aa437d90fd14f967" "1609f1b26a1f40f1bdc9355bad4c423f" "bd58546f4ba44700ac9173040dc35359" "86ec5ef5de0a42a3864c9d082ea707b1" "bf34ab8407a448e0b6a013398c6eac57" "9f8acbca16f945bc92de0a5927fbe9df" "8853485eb72949ecb60fc579e5d0174d" "28f366a4570d42028c059e200613fb7f" "ad8a5b0f3598409bb0c062bb15a5d81b" "2e24f56ccf8a4309a1555c07a16fd546")))) option))
+
+
+; Section: Display
+
+(let ((option (gnc:lookup-option options
+                                 "Display"
+                                 "Maximum Bars")))
+  ((lambda (o) (if o (gnc:option-set-value o 11.0))) option))
+
+
+; Section: General
+
+(let ((option (gnc:lookup-option options
+                                 "General"
+                                 "Show Average")))
+  ((lambda (o) (if o (gnc:option-set-value o 'MonthDelta))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "General"
+                                 "Report's currency")))
+  ((lambda (o) (if o (gnc:option-set-value o "EUR"))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "General"
+                                 "Step Size")))
+  ((lambda (o) (if o (gnc:option-set-value o 'YearDelta))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "General"
+                                 "Start Date")))
+  ((lambda (o) (if o (gnc:option-set-value o '(absolute . 1672570740)))) option))
+
+
+      options
+    )
+  )
+  (gnc:define-report 
+    'version 1
+    'name "Expense Over Time"
+    'report-guid "7342c41788254dc79e66965166d22ff1"
+    'parent-type "b1f15b2052c149df93e698fe85a81ea6"
+    'options-generator options-gen
+    'menu-path (list gnc:menuname-custom)
+    'renderer (gnc:report-template-renderer/report-guid "b1f15b2052c149df93e698fe85a81ea6" "Expense Over Time")
+  )
+)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Options for saved report "Monthly Average Expenses per Year", based on template "b1f15b2052c149df93e698fe85a81ea6"
+(let ()
+  (define (options-gen)
+    (let
+         (
+           (options (gnc:report-template-new-options/report-guid "b1f15b2052c149df93e698fe85a81ea6" "Expense Over Time"))
+           (new-embedded-report-ids '()) ;; only used with Multicolumn View Reports
+         )
+; Section: Accounts
+
+(let ((option (gnc:lookup-option options
+                                 "Accounts"
+                                 "Accounts")))
+  ((lambda (o) (if o (gnc:option-set-value o '("b032afb1b5a24a5080342559f53a4506" "e0f54b0236a449e99e44c94b08088d25" "415f2e4309d64152b7fd325ba96e2cc3" "14c677f004ea48399448594b15add5a1" "e5ecf8a9581944279fe263ed2ace74b3" "75ca7108f9fe426da1b9f2abed5e40ed" "6c317ef6f1094d699d2e3d480649dfab" "37e81ce6b46044a9a294acb818c753b5" "ed6371f28426409891a32da1ef24d51d" "256fc721bf644f2987d2040db07f9fae" "077cba792c3d46559520940e1a2d631b" "9eea9ffae78d40eeb09b046b8ad719f8" "ea6091c55fa9494ba3cfc0b17011a143" "56b31d0fda6b42918def1886b384c726" "9b0f6995f0e0477dbc0ed2839992f2ff" "5af91903cb7543c6a8f5539852a972f0" "0398797b32f84bb78ab23f1c9230c9cf" "bfadeed00bbe4387b3afb69d14eade78" "1d4192e33f88408b908396c87ec7e24c" "26ebb2cb017a4616af596767c9713cef" "f38bd4fd83ea44efacca9d10b07a7302" "436eef72a5404434af4b01e00e7bcbba" "da9c5a5a5ba64541ad48ffea3c8d8070" "74a1e430f75e4c49bedaefca757e8b75" "0f82570b36ef4439bc5d848b80fcee33" "9f04fe6118ed41b8bf71aca1816e5964" "9117e3b05431486ab5925518c0f99f01" "16fce77d25504c138e1daab450a56efa" "f190fd2e750f4ebcb81775f3d193aaff" "7e401f8ff5e14a7d9e52d1990933b0df" "948f53578713458cb7a2d348cc305635" "5ba5ece5df0f4d0c823cb4110d4f830e" "20a6d485e8b544d1aa89e815ffee675c" "cd03f64da51e45d8aa437d90fd14f967" "1609f1b26a1f40f1bdc9355bad4c423f" "bd58546f4ba44700ac9173040dc35359" "86ec5ef5de0a42a3864c9d082ea707b1" "bf34ab8407a448e0b6a013398c6eac57" "9f8acbca16f945bc92de0a5927fbe9df" "8853485eb72949ecb60fc579e5d0174d" "28f366a4570d42028c059e200613fb7f" "ad8a5b0f3598409bb0c062bb15a5d81b" "2e24f56ccf8a4309a1555c07a16fd546")))) option))
+
+
+; Section: Display
+
+(let ((option (gnc:lookup-option options
+                                 "Display"
+                                 "Maximum Bars")))
+  ((lambda (o) (if o (gnc:option-set-value o 11.0))) option))
+
+
+; Section: General
+
+(let ((option (gnc:lookup-option options
+                                 "General"
+                                 "Show Average")))
+  ((lambda (o) (if o (gnc:option-set-value o 'MonthDelta))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "General"
+                                 "Report's currency")))
+  ((lambda (o) (if o (gnc:option-set-value o "EUR"))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "General"
+                                 "Step Size")))
+  ((lambda (o) (if o (gnc:option-set-value o 'YearDelta))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "General"
+                                 "Start Date")))
+  ((lambda (o) (if o (gnc:option-set-value o '(absolute . 1672570740)))) option))
+
+
+      options
+    )
+  )
+  (gnc:define-report 
+    'version 1
+    'name "Monthly Average Expenses per Year"
+    'report-guid "3b09871321ea47558d4bc729eb197f27"
+    'parent-type "b1f15b2052c149df93e698fe85a81ea6"
+    'options-generator options-gen
+    'menu-path (list gnc:menuname-custom)
+    'renderer (gnc:report-template-renderer/report-guid "b1f15b2052c149df93e698fe85a81ea6" "Expense Over Time")
+  )
+)
+

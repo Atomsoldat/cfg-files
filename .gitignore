@@ -16,6 +16,7 @@ Desktop/
 .config/QtProject.conf
 .config/pulse
 .config/ibus/
+.config/xfce4
 
 
 #gnome-related

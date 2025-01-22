@@ -20,7 +20,7 @@ require("awful.hotkeys_popup.keys")
 
 
 -- BEGIN user defined dependencies
-local volume_widget = require('awesome-wm-widgets.volume-widget.volume')
+local volume_widget = require('awesome-wm-widgets.pactl-widget.volume')
 local ram_widget = require("awesome-wm-widgets.ram-widget.ram-widget")
 local batteryarc_widget = require("awesome-wm-widgets.batteryarc-widget.batteryarc")
 -- END user defined dependencies

@@ -23,12 +23,6 @@ Videos/
 .local/share
 .cache/
 .factorio/
-.config/QtProject.conf
-.config/pulse
-.config/ibus/
-.config/chromium/
-.config/kactivitymanagerdrc
-.config/kglobalshortcutsrc
 .swp
 .bash_history*
 .swt/
@@ -42,27 +36,10 @@ Videos/
 .config/*
 # exceptions for .config
 !.config/awesome
-
-# config whose relevant files we have added
-.config/deluge
-
-# config  we  don't want to persist
-.config/helm
-
+!.config/alacritty
 
 #gnome-related
 .gnome/
-.config/dconf/
-
-# kde-related
-.config/menus/applications-merged/xdg-desktop-menu-dummy.menu
-
-# xfce4-related
-.config/xfce4
-## contains list of recently used programs
-.config/xfce4/panel/whiskermenu-7.rc
-## contain file and link names
-.config/xfce4/desktop/icons*
 
 # communication
 .thunderbird/
@@ -75,7 +52,6 @@ Videos/
 .vim/.netrwhist
 .sudo_as_admin_successful
 .wcalc*
-.config/vlc/
 .python_history
 .ollama/
 .wget-hsts
@@ -102,7 +78,6 @@ Videos/
 # cef = chromium embedded framework
 # used by steam
 .steam*
-.config/cef_user_data/
 
 # Application Data
 .eteks/
@@ -119,7 +94,6 @@ eclipse/
 .eclipse/
 .junitsession
 .vscode-oss/
-.config/VSCodium/
 .texlive2024/
 .texlive2022/
 .p2/
@@ -130,13 +104,7 @@ eclipse/
 .openjfx/
 
 # Games
-.config/StardewValley
-.config/Proxy\ Studios/
-.config/unity3d/
 .macromedia/
 .dominions5/
 .paradoxlauncher/
 .pcsxr/
-
-# Proprietary
-.config/TeamSpeak/

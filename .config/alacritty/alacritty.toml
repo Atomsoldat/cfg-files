@@ -1,0 +1,4 @@
+import = [
+    # https://github.com/alacritty/alacritty-theme
+    "~/.config/alacritty/themes/themes/gruvbox_dark.toml"
+]

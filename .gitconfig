@@ -3,3 +3,5 @@
 [user]
 	email = lichturm@posteo.de
 	name = Leon Welchert
+[push]
+	autoSetupRemote = true

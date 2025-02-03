@@ -23,6 +23,11 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
+-- vim.o is equivalent to :set
+vim.o.wrap = true
+vim.o.number = true
+vim.o.relativenumber = true
+
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {

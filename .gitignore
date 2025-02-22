@@ -102,6 +102,8 @@ eclipse/
 .local/pipx
 .docker/
 .openjfx/
+# boy, i sure love being tracked ...
+.redhat/anonymousId
 
 # Games
 .macromedia/

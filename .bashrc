@@ -123,12 +123,14 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# go packages
-export PATH=$PATH:${HOME}/go/bin
-
 # configure text editor we want to use
 export VISUAL=vim
 export EDITOR="$VISUAL"
+
+# go packages
+export PATH=$PATH:${HOME}/go/bin
+# homebrew packages
+export PATH=$PATH:/home/linuxbrew/bin
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

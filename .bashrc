@@ -130,10 +130,6 @@ export PATH=$PATH:${HOME}/go/bin
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
-
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/leon/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"

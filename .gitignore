@@ -20,8 +20,11 @@ Videos/
 
 # Validate  whether we want any of these things
 .mozilla/
+.mullvad-browser/
 .ts3client/
 .local/share
+.local/bin
+.local/lib
 .cache/
 .factorio/
 .swp
@@ -76,6 +79,7 @@ Videos/
 .ssh/
 .kube/
 .gnupg/
+.minikube/
 
 # cef = chromium embedded framework
 # used by steam

@@ -119,6 +119,9 @@ if [ -f ~/.config/shell/aliases ]; then
 fi
 
 
+# suppress emotes in minikube cli output
+export MINIKUBE_IN_STYLE=false
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/leon/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"

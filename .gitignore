@@ -1,6 +1,7 @@
 # shells
 ## zshell stores tab completion info here
 .zcompdump
+.zsh_history
 
 # User data
 Pictures/
@@ -37,6 +38,7 @@ Videos/
 # exceptions for .config
 !.config/awesome
 !.config/alacritty
+!.config/shell
 
 #gnome-related
 .gnome/

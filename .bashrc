@@ -96,14 +96,6 @@ alias l='ls -CF'
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
-# Alias definitions.
-# You may want to put all your additions into a separate file like
-# ~/.bash_aliases, instead of adding them here directly.
-# See /usr/share/doc/bash-doc/examples in the bash-doc package.
-
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -116,21 +108,16 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# alias for maintaining a git repo of the home dir
-alias config='/usr/bin/git --git-dir=/home/leon/.cfg.git/ --work-tree=/home/leon'
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+if [ -f ~/.config/shell/environment ]; then
+    . ~/.config/shell/environment
+fi
 
-# configure text editor we want to use
-export VISUAL=vim
-export EDITOR="$VISUAL"
 
-# go packages
-export PATH=$PATH:${HOME}/go/bin
-# homebrew packages
-export PATH=$PATH:/home/linuxbrew/bin
+if [ -f ~/.config/shell/aliases ]; then
+    . ~/.config/shell/aliases
+fi
+
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

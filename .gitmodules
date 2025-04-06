@@ -6,4 +6,4 @@
 	url = https://github.com/alacritty/alacritty-theme
 [submodule "/home/leon/.zprezto"]
 	path = .zprezto
-	url = https://github.com/sorin-ionescu/prezto.git
+	url = git@github.com:Atomsoldat/prezto.git

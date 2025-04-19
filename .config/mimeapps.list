@@ -7,3 +7,4 @@ image/jpeg=okularApplication_kimgio.desktop;org.xfce.ristretto.desktop;feh.deskt
 inode/directory=okularApplication_xps.desktop;
 image/png=okularApplication_kimgio.desktop;
 application/pdf=okularApplication_pdf.desktop;
+application/json=org.xfce.mousepad.desktop;

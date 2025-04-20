@@ -2,9 +2,10 @@
 application/x-compressed-tar=thunar.desktop
 
 [Added Associations]
-application/x-compressed-tar=org.gnome.FileRoller.desktop;thunar.desktop;
-image/jpeg=okularApplication_kimgio.desktop;org.xfce.ristretto.desktop;feh.desktop;
+application/x-compressed-tar=thunar.desktop;
 inode/directory=okularApplication_xps.desktop;
-image/png=okularApplication_kimgio.desktop;
+image/jpeg=org.xfce.ristretto.desktop;
+image/png=org.xfce.ristretto.desktop;
+image/gif=org.xfce.ristretto.desktop;
 application/pdf=okularApplication_pdf.desktop;
 application/json=org.xfce.mousepad.desktop;

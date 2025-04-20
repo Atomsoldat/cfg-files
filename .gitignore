@@ -76,7 +76,8 @@ Videos/
 .pki/
 .ICEauthority
 .Xauthority
-.ssh/
+.ssh/**
+!.ssh/config
 .kube/
 .gnupg/
 .minikube/

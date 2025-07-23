@@ -23,10 +23,27 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
+-- see here for more options
+-- http://neovim.io/doc/user/options.html
 -- vim.o is equivalent to :set
 vim.o.wrap = true
 vim.o.number = true
 vim.o.relativenumber = true
+
+-- http://neovim.io/doc/user/change.html#fo-table
+-- disable automatic addition of comment symbols on newlines while in a comment
+local function remove_ro_from_formatoptions()
+  vim.opt.formatoptions:remove('r')
+  vim.opt.formatoptions:remove('o')
+end
+
+-- Apply this function on every FileType event (i.e., every buffer once filetype assigned)
+-- I only got this to work this way, because the package provided filetype based files
+-- under /usr/share/nvim/runtime/ftplugin get executed after this file it seems...
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "*",
+  callback = remove_ro_from_formatoptions,
+})
 
 -- Setup lazy.nvim
 require("lazy").setup({

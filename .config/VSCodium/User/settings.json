@@ -1,0 +1,8 @@
+{
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "redhat.telemetry.enabled": false,
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on"
+}

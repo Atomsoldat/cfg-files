@@ -1,0 +1,35 @@
+# https://comfyui-wiki.com/en/install/install-comfyui/install-comfyui-on-linux
+
+[workspace]
+authors = ["Leon Welchert <lichturm@posteo.de>"]
+channels = ["conda-forge"]
+name = "comfy-ui"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+completion = { cmd = [
+  "comfy",
+  "--install-completion",
+]}
+
+install = { cmd = [
+  "comfy",
+  "--workspace=/datengruft/ml/comfy-ui",
+  "install",
+]}
+
+launch = { cmd = [
+  "comfy",
+  "launch",
+]}
+
+[dependencies]
+python = ">=3.13.7,<3.14"
+pip = ">=25.2,<26"
+
+[pypi-dependencies]
+comfy-cli = "*"
+torch = { version = ">=2.5.1", index = "https://download.pytorch.org/whl/cu124" }
+torchvision = { version = ">=0.20.1", index = "https://download.pytorch.org/whl/cu124" }
+torchaudio = { version = ">=0.20.1", index = "https://download.pytorch.org/whl/cu124" }

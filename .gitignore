@@ -51,6 +51,16 @@ Videos/
 !.config/nvim
 !.config/xfce4
 
+
+#xfce4
+.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-screenshooter.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/displays.xml
+# it would be nice to keep this in git, but it is alsor really noisy...
+# maybe config files can be split?
+.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+
 #gnome-related
 .gnome/
 

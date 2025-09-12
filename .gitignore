@@ -17,6 +17,8 @@ Videos/
 # noise
 .config/deluge/gtk3ui.conf
 .config/mimeapps.list
+.config/user-dirs.dirs
+.config/user-dirs.dirs
 
 
 # This repo

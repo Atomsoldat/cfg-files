@@ -49,6 +49,7 @@ Videos/
 !.config/alacritty
 !.config/shell
 !.config/nvim
+!.config/xfce4
 
 #gnome-related
 .gnome/

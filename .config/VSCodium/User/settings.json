@@ -4,5 +4,8 @@
     },
     "redhat.telemetry.enabled": false,
     "files.autoSave": "afterDelay",
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "godotTools.editorPath.godot4": "/datengruft/programming/11_game_making/Godot_v4.4.1-stable_linux.x86_64",
+    "godotTools.editorPath.godot3": "",
+    "godotTools.inlayHints.gdscript": true
 }

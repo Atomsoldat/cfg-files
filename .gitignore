@@ -50,6 +50,7 @@ Videos/
 !.config/shell
 !.config/nvim
 !.config/xfce4
+!.config/VSCodium/User/settings.json
 
 
 #xfce4

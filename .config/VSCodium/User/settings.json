@@ -7,5 +7,6 @@
     "editor.wordWrap": "on",
     "godotTools.editorPath.godot4": "/datengruft/programming/11_game_making/Godot_v4.4.1-stable_linux.x86_64",
     "godotTools.editorPath.godot3": "",
-    "godotTools.inlayHints.gdscript": true
+    "godotTools.inlayHints.gdscript": true,
+    "latex-workshop.latex.autoBuild.run": "never"
 }

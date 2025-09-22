@@ -3,5 +3,10 @@
 [user]
 	email = lichturm@posteo.de
 	name = Leon Welchert
+	signingkey = 968578EC8F6D8E0665CE349545FE013A63B12B3F
 [push]
 	autoSetupRemote = true
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true

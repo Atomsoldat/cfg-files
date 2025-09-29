@@ -3,7 +3,7 @@
 [user]
 	email = lichturm@posteo.de
 	name = Leon Welchert
-	signingkey = 968578EC8F6D8E0665CE349545FE013A63B12B3F
+	signingkey = 22C316A353F6F11ED2693628FD9D433219DA6540!
 [push]
 	autoSetupRemote = true
 [commit]

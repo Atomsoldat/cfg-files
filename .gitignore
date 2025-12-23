@@ -13,6 +13,7 @@ Telegram\ Desktop/
 Videos/
 .var/
 .local/state
+.calc_history
 
 # noise
 .config/deluge/gtk3ui.conf

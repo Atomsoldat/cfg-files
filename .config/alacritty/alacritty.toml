@@ -3,3 +3,12 @@ import = [
     # https://github.com/alacritty/alacritty-theme
     "~/.config/alacritty/themes/themes/gruvbox_dark.toml"
 ]
+
+# differentiate shift+enter from regular enter
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = '\u001b\r'
+# this one made alacritty complain about invalid escape sequences on Archlinux
+# has something to do with how toml handles strings
+#chars = "\x1b\r"

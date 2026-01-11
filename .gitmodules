@@ -7,3 +7,6 @@
 [submodule "/home/leon/.zprezto"]
 	path = .zprezto
 	url = git@github.com:Atomsoldat/prezto.git
+[submodule ".local/share/gruvbox-plus-icon-pack"]
+	path = .local/share/gruvbox-plus-icon-pack
+	url = https://github.com/SylEleuth/gruvbox-plus-icon-pack.git

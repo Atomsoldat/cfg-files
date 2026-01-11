@@ -2,6 +2,7 @@
 ## zshell stores tab completion info here
 .zcompdump
 .zsh_history
+.zhistory
 
 # User data
 Pictures/

@@ -1,3 +1,4 @@
 # alias for maintaining a git repo of the home dir
 alias config='/usr/bin/git --git-dir=/home/leon/.cfg.git/ --work-tree=/home/leon'
 alias k='kubectl'
+alias vim='nvim'

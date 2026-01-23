@@ -2,3 +2,4 @@
 alias config='/usr/bin/git --git-dir=/home/leon/.cfg.git/ --work-tree=/home/leon'
 alias k='kubectl'
 alias vim='nvim'
+alias gcm='git commit --message'

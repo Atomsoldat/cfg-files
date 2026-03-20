@@ -40,28 +40,3 @@ nmcli -f name,autoconnect connection show
 nmcli connection show <CONNECTION_NAME>
 
 ```
-
-
-## Configuring /etc/network/interfaces for persistent configuration on Debian
-
-Config for regular dhcp wireless lan
-```
-# The primary network interface
-allow-hotplug wlp3s0
-iface wlp3s0 inet dhcp
-	wpa-ssid <SSID POSSIBLY WITH SPACES>
-	wpa-psk  <PASSWORD>
-```
-
-
-```
-sudo ifup wlp3s0
-sudo ifdown wlp3s0
-```
-
-## Other methods
-
-Generating a config file for `wpa_supplicant`
-```
-wpa_passphrase <SSID> <PASSWORD> > <FILENAME>
-```

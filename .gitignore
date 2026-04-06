@@ -21,6 +21,7 @@ Videos/
 .config/mimeapps.list
 .config/user-dirs.dirs
 .config/user-dirs.dirs
+.texlive2025/
 
 
 # This repo
@@ -74,6 +75,7 @@ Videos/
 .lesshst
 .bash_history
 .bash_logout
+.psql_history
 .viminfo
 .vim/.netrwhist
 .sudo_as_admin_successful
@@ -84,6 +86,9 @@ Videos/
 .wajig
 .node_repl_history
 .ansible/
+.aider*
+.claude*
+.azure
 
 # logs
 .xsession-errors*
@@ -136,5 +141,6 @@ eclipse/
 # Games
 .macromedia/
 .dominions5/
+.dominions6/
 .paradoxlauncher/
 .pcsxr/

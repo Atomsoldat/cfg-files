@@ -3,10 +3,15 @@
 [user]
 	email = lichturm@posteo.de
 	name = Leon Welchert
-	signingkey = 22C316A353F6F11ED2693628FD9D433219DA6540!
+	# having an exclamation mark here would force use of that exact key
+	# without it, gpg may select an adequate subkey, if it feels that is appropriate
+	#signingkey = 22C316A353F6F11ED2693628FD9D433219DA6540!
+	signingkey = 22C316A353F6F11ED2693628FD9D433219DA6540
 [push]
 	autoSetupRemote = true
 [commit]
 	gpgsign = true
 [tag]
 	gpgSign = true
+[pull]
+	ff = only

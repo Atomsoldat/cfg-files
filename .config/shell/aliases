@@ -3,3 +3,6 @@ alias config='/usr/bin/git --git-dir=/home/leon/.cfg.git/ --work-tree=/home/leon
 alias k='kubectl'
 alias vim='nvim'
 alias gcm='git commit --message'
+alias renovate-config-validator='npx --yes --package renovate -- renovate-config-validator'
+alias renovate-validate='npx --yes --package renovate -- renovate-config-validator'
+

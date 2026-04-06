@@ -1,3 +1,5 @@
+### BEGIN MODIFYING PATH ###
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -8,8 +10,41 @@ export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin
 # https://github.com/Homebrew/brew/pull/5528
 export HOMEBREW_NO_BOTTLE_SOURCE_FALLBACK=true
 
+# nix
+export PATH=$PATH:${HOME}/.nix-profile/bin
+
 # go packages
 export PATH=$PATH:${HOME}/go/bin
+
+# Ensure that a non-login, non-interactive shell has a defined environment.
+if [[ ( "$SHLVL" -eq 1 && ! -o LOGIN ) && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprofile"
+fi
+. "$HOME/.cargo/env"
+
+# pnpm
+export PNPM_HOME="/home/leon/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+# add directories to PATH
+
+# ~/.local/bin looks a bit more stupid than ~/bin but is the preferred location by the XDG directory spec
+# https://specifications.freedesktop.org/basedir-spec/latest/
+export PATH=$PATH:~/.local/bin
+
+# Ensure that a non-login, non-interactive shell has a defined environment.
+if [[ ( "$SHLVL" -eq 1 && ! -o LOGIN ) && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprofile"
+fi
+. "$HOME/.cargo/env"
+
+### END MODIFYING PATH ###
+
+export VAULT_ADDR="http://openbao.irminsul:8200/"
 
 # configure text editor we want to use
 export VISUAL=vim

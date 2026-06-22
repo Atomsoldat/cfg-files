@@ -4,7 +4,7 @@
 [submodule ".config/alacritty/themes"]
 	path = .config/alacritty/themes
 	url = https://github.com/alacritty/alacritty-theme
-[submodule "/home/leon/.zprezto"]
+[submodule ".zprezto"]
 	path = .zprezto
 	url = git@github.com:Atomsoldat/prezto.git
 [submodule ".local/share/gruvbox-plus-icon-pack"]

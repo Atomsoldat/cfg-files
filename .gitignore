@@ -139,6 +139,9 @@ eclipse/
 .openjfx/
 # boy, i sure love being tracked ...
 .redhat/anonymousId
+.yarn
+.tilt-dev
+.texlive
 
 # Games
 .macromedia/

@@ -47,5 +47,7 @@ fi
 export VAULT_ADDR="http://openbao.irminsul:8200/"
 
 # configure text editor we want to use
-export VISUAL=vim
+export VISUAL=nvim
 export EDITOR="$VISUAL"
+
+export VAULT_ADDR=http://openbao.irminsul:8200

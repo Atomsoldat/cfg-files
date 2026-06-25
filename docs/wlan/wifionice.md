@@ -10,3 +10,6 @@ ip route
 
 If captive portal detection in the browser does not work, Resolve
 `login.wifionice.de` using e.g. `nslookup` manually, and visit the page via http. ignore the certificate warning using `advanced`
+
+
+Visiting `https://iceportal.de` via the browser (with docker disabled after a reboot also worked on one occasion)

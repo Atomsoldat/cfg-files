@@ -1,5 +1,5 @@
 # alias for maintaining a git repo of the home dir
-alias config='/usr/bin/git --git-dir=/home/leon/.cfg.git/ --work-tree=/home/leon'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg.git/ --work-tree=$HOME'
 alias k='kubectl'
 alias vim='nvim'
 alias gcm='git commit --message'

@@ -98,6 +98,7 @@ Videos/
 .config/keepassxc/
 .config/hcloud/
 .config/gcloud/
+.config/openstack/
 .terraform.d/
 .boto
 .pki/
@@ -148,4 +149,5 @@ eclipse/
 .dominions5/
 .dominions6/
 .paradoxlauncher/
+.paradoxinteractive/
 .pcsxr/
